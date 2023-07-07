@@ -8,7 +8,7 @@ import {
 } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCcTeD3UoPewI7KMqStovvxplk5kGS2RJg',
+  apiKey: process.env.FUTURE_SELF_API_KEY,
   authDomain: 'future-self-91441.firebaseapp.com',
   projectId: 'future-self-91441',
   storageBucket: 'future-self-91441.appspot.com',
